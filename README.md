@@ -11,8 +11,9 @@ We propose incremental 3D Gaussian localization for free-view image-goal navigat
 
 ## News
 
-- **2025/06**: IGL-Nav is accepted to ICCV 2025! 🚀
 - **2025/07**: Project page and demo released! 🚀 
+- **2025/06**: IGL-Nav is accepted to ICCV 2025! 🚀
+
 - **Code is coming soon. Stay tuned!**
 
 ---
