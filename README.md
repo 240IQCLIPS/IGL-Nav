@@ -18,5 +18,7 @@ We propose incremental 3D Gaussian localization for free-view image-goal navigat
 
 ## Demo
 A robot is guided to **a cellphone-captured goal image with free view**, successfully reaching the target in complex indoor scenes:
+
 ![real-world](./assets/IGL-Nav_demo.gif)
+
 The complete and high-quality version of the video demo can be [downloaded here](https://cloud.tsinghua.edu.cn/f/076aea5d0f2d477687de/?dl=1).
