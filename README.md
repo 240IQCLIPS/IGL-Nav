@@ -1,7 +1,7 @@
 # IGL-Nav
 # IGL-Nav: Incremental 3D Gaussian Localization for Image-goal Navigation
 
-### [Paper](https://arxiv.org/abs/2508.00823) | [Project Page](https://GWxuan.github.io/IGL-Nav/) | [Video](https://www.youtube.com/watch?v=gOo6_I-zHYs) | [备用视频链接](https://cloud.tsinghua.edu.cn/f/076aea5d0f2d477687de/?dl=1)
+### [Paper](https://arxiv.org/abs/2508.00823) | [Project Page](https://GWxuan.github.io/IGL-Nav/) | [Video Demo](https://www.youtube.com/watch?v=gOo6_I-zHYs)
 
 > **IGL-Nav: Incremental 3D Gaussian Localization for Image-goal Navigation**  
 > [Wenxuan Guo](https://GWxuan.github.io/)\*, [Xiuwei Xu](https://xuxw98.github.io/)\*, [Hang Yin](https://bagh2178.github.io/), [Ziwei Wang](https://ziweiwangthu.github.io/), [Jianjiang Feng](https://ivg.au.tsinghua.edu.cn/~jfeng/index.html), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)
